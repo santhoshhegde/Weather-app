@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    height: 60vmin;
+    width: 50vmin;
+    background: greenyellow;
+    border-radius: 1.5rem;
+}
+
+.card input{
+    border-radius: 1.5rem;
+    border: none;
+    padding: 2vh;
+    margin: 1vh;
+}
