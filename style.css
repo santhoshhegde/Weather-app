@@ -1,21 +1,83 @@
-body{
+*{
+    font-family: 'Poppins', sans-serfie;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.card{
+    background: #222;
+    box-sizing: border-box;
+  }
+  .card{
+    align-items: center;
+    max-width: 40vw;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 10px;
+  }
+  .header{
+    width:100%;
     display: flex;
     justify-content: center;
-    height: 60vmin;
-    width: 50vmin;
-    background: greenyellow;
-    border-radius: 1.5rem;
-}
-
-.card input{
-    border-radius: 1.5rem;
+    margin-top: 2vh;
+  }
+  .header input{
+    height: 5vh;
+    max-width: 70%;
     border: none;
-    padding: 2vh;
-    margin: 1vh;
-}
+    outline: 0;
+    border-radius: 2rem;
+    padding: 1vh;
+    margin: 0 1vw;
+    flex: 1;
+  }
+  .header button{
+    height: 5vh;
+    width: 5vh;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    color: #222;
+    cursor: pointer;
+  }
+  .container{
+    margin-top: 2vh;
+    width: 100%;
+    text-align: center;
+  }
+  .container i{
+    font-size: 10vh;
+  }
+  
+  p{
+    color: #fff;
+    font-size: 2vh;
+    text-align: center;
+  }
+  .details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:3vh 3vw;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .wind{
+    color:white;
+  }
+  .details i{
+    color: white;
+    font-size: 5vh;
+  }
+  .details p{
+    margin: 0;
+    
+  }
+  .humidity{
+    color:white;
+  }
