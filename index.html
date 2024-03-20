@@ -15,27 +15,31 @@
       <input type="search" placeholder="enter city name">
       <button><i class="fa-solid fa-magnifying-glass"></i></button>
     </div>
+    <p id ='error'>City name not found</p>
     <div class="container">
-      <i class="fa-solid fa-sun" style="color: #FFD43B;"></i>
+      <i class="fa-solid fa-sun" id="weather-icon" style="color: #FFD43B;"></i>
 
       <p id='temp'>22&deg;C</p>
       <p id='city'>City</p>
       
       <div class="details">
-        
-        <i class="fa-solid fa-wind"></i>
-          
-        <div class="wind">
-          <p id='percentage'>40%</p>
-          <p id='humi'>Humidity</p>
+        <div class="col">
+          <i class="fa-solid fa-wind"></i>
+            
+          <div class="wind">
+            <p id='percentage'>40%</p>
+            <p>Humidity</p>
+          </div>
         </div>
         
+       <div class="col">
         <i class="fa-solid fa-water"> </i>
           
-        <div class="humidity"">
+        <div class="humidity">
           <p id="speed">10 km/h</p>
           <p>Wind speed</p>
         </div>
+       </div>
       
       </div>
     </div>
